@@ -1,0 +1,6 @@
+Absolute vs Relative Paths
+	Amanda could use the following commands
+	cd ~
+	cd ~/data/..
+	cd
+	cd ..
