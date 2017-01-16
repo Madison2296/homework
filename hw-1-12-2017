@@ -10,4 +10,5 @@ ls Reading Comprehension
 	to display pnas_sub/ pnas_final/ original/ use the commands:
 	ls -r -F
 	ls -r -F /Users/backup
-
+Exploring More ls Arguments
+	using the arguments -l and -h with the ls command results in the display of the long 		listing format (-l), and the display of the file size in "human readable" form (-h)
