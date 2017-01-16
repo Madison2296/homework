@@ -4,3 +4,5 @@ Absolute vs Relative Paths
 	cd ~/data/..
 	cd
 	cd ..
+Relative Path Resolution
+	ls ../backup will display: original pnas_finals pnas_sub
