@@ -12,3 +12,5 @@ ls Reading Comprehension
 	ls -r -F /Users/backup
 Exploring More ls Arguments
 	using the arguments -l and -h with the ls command results in the display of the long 		listing format (-l), and the display of the file size in "human readable" form (-h)
+Listing Recursively and by Time
+	the directories will be listed alphabetically, and the files/directories in each directory 		will be sorted by time 
