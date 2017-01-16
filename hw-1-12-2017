@@ -6,3 +6,8 @@ Absolute vs Relative Paths
 	cd ..
 Relative Path Resolution
 	ls ../backup will display: original pnas_finals pnas_sub
+ls Reading Comprehension
+	to display pnas_sub/ pnas_final/ original/ use the commands:
+	ls -r -F
+	ls -r -F /Users/backup
+
