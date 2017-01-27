@@ -1,0 +1,242 @@
+Question 1:
+Order of first 5 species
+Rodentia
+Rodentia
+Rodentia
+Macroscelidea
+Rodentia
+
+Question2:
+There are 152 unique families
+Abrocomidae
+Acrobatidae
+Ailuridae
+Anomaluridae
+Antilocapridae
+Aotidae
+Aplodontiidae
+Atelidae
+Balaenidae
+Balaenopteridae
+Bathyergidae
+Bovidae
+Bradypodidae
+Burramyidae
+Caenolestidae
+Callitrichidae
+Calomyscidae
+Camelidae
+Canidae
+Capromyidae
+Castoridae
+Caviidae
+Cebidae
+Cercopithecidae
+Cervidae
+Cheirogaleidae
+Chinchillidae
+Chrysochloridae
+Craseonycteridae
+Cricetidae
+Ctenodactylidae
+Ctenomyidae
+Cuniculidae
+Cyclopedidae
+Cynocephalidae
+Dasypodidae
+Dasyproctidae
+Dasyuridae
+Daubentoniidae
+Delphinidae
+Diatomyidae
+Didelphidae
+Dinomyidae
+Dipodidae
+Dugongidae
+Echimydae
+Echimyidae
+Elephantidae
+Emballonuridae
+Equidae
+Erethizontidae
+Erinaceidae
+Eschrichtiidae
+Eupleridae
+Felidae
+Furipteridae
+Galagidae
+Geomyidae
+Giraffidae
+Gliridae
+Herpestidae
+Heteromyidae
+Hippopotamidae
+Hipposideridae
+Hominidae
+Hyaenidae
+Hylobatidae
+Hypsiprymnodontidae
+Hystricidae
+Indriidae
+Iniidae
+Lemuridae
+Lepilemuridae
+Leporidae
+Lorisidae
+Macropodidae
+Macroscelididae
+Manidae
+Megadermatidae
+Megalonychidae
+Mephitidae
+Microbiotheriidae
+Molossidae
+Monodontidae
+Mormoopidae
+Moschidae
+Muridae
+Mustelidae
+Myocastoridae
+Myrmecobiidae
+Myrmecophagidae
+Mystacinidae
+Myzopodidae
+Nandiniidae
+Natalidae
+Neobalaenidae
+Nesomyidae
+Noctilionidae
+Notoryctidae
+Nycteridae
+Ochotonidae
+Octodontidae
+Odobenidae
+Ornithorhynchidae
+Orycteropodidae
+Otariidae
+Pedetidae
+Peramelidae
+Petauridae
+Petromuridae
+Phalangeridae
+Phascolarctidae
+Phocidae
+Phocoenidae
+Phyllostomidae
+Physeteridae
+Pitheciidae
+Platacanthomyidae
+Platanistidae
+Potoroidae
+Prionodontidae
+Procaviidae
+Procyonidae
+Pseudocheiridae
+Pteropodidae
+Ptilocercidae
+Rhinocerotidae
+Rhinolophidae
+Rhinopomatidae
+Sciuridae
+Solenodontidae
+Soricidae
+Spalacidae
+Suidae
+Tachyglossidae
+Talpidae
+Tapiridae
+Tarsiidae
+Tarsipedidae
+Tayassuidae
+Tenrecidae
+Thryonomyidae
+Thylacomyidae
+Thyropteridae
+Tragulidae
+Trichechidae
+Tupaiidae
+Ursidae
+Vespertilionidae
+Viverridae
+Vombatidae
+Ziphiidae
+
+Question 3:
+
+    1  echo 'aaaabbb' | tr 'a' 'b'
+    2  echo '123456789' | tr '1-5' '0'
+    3  echo 'ACtGGcAaTT' | tr actg ACTG
+    4  echo 'ACtGGcAaTT' | tr [:lower:] [:upper:]
+    5  echo 'aabbccddee' | tr a-c 1-3
+    6  echo 'aaaaabbbb' |tr -d a
+    7  echo 'aaaaabbbb' |tr -s a
+    8  tr ' ' '\t' < inputfile.csv > outputfile.csv
+    9  cd ../sandbox
+   10  tail -n +2 ../data/Pacifici2013_data.csv
+   11  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6
+   12  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '
+   13  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+   14  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+   15  cd ../data
+   16  history
+   17  history >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt
+
+Question 4:
+the 10th largest species is Cetartiodactyla Balaenidae Eubalaena Eubalaena glacialis
+the 10th smallest species is Chiroptera Vespertilionidae Pipistrellus Pipistrellus nanulus
+
+Question 5: 
+    1  wc -1 BodyM.csv
+    2  ../sandbox
+    3  cd ../sandbox
+    4  wc -1 BodyM.csv
+    5  wc -l BodyM.csv
+    6  grep Vombatidae BodyM.csv
+    7  grep -c Vombatidae BodyM.csv
+    8  grep Bos BodyM.csv
+    9  grep -w bos BodyM.csv
+   10  grep -w Bos BodyM.csv
+   11  grep -i Bos BodyM.csv
+   12  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv
+   13  grep n "Gorilla gorilla" BodyM.csv
+   14  grep -n "Gorilla gorilla" BodyM.csv
+   15  grep Gorilla BodyM.csv | grep -v gorilla
+   16  grep-w "Gorilla\|Pan" BodyM.csv
+   17  grep -w "Gorilla\|Pan" BodyM.csv
+   18  cd ~/Desktop/eeb-177/csb/unix/
+   19  grep -r "Gorilla" data/
+   20  history
+   21  history >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt
+
+Question 6:
+the size of the file is 556
+16 contigs are classified isogroup00036
+there are 955 unique isogroups
+
+
+Question 7:
+
+using grep
+we could use the commands
+grep "of" haiku.txt
+grep -w "of" haiku.txt
+grep -i "of" haiku.txt
+
+find pipeline ading comprehension
+the script will find the files in the current directory with the phrase .dat in their name and display them with their line number in numerical order based off line number.
+
+matching and subtracting
+use: grep -v "temp" $(find /data name '*ose.dat')
+
+tracking a species
+grep -w $1 -r $2 $1.txt|cut -d : -f 2
+
+Little Women
+for name in LittleWomen.txt
+do
+    grep $name Jo|wc -w
+    grep $name Amy|wc -w
+done
+
+finding files with different properties
+$ find ./ -type f -mtime -1 -user ahmed
