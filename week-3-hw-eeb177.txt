@@ -1,0 +1,10 @@
+Question 1
+1. 	cut -f 1 Gesquiere2011_data.csv|grep -w 3|wc -l
+	cut -f 1 Gesquiere2011_data.csv|grep -w 27|wc -l
+	61 and 5 times
+2.	#! /bin/bash
+	cut -f 1 $1|grep -w $2|wc -l
+3.	#! /bin/bash
+	tail -n +2 $1|cut -f 1|sort -n|uniq -c
+Question 2
+1.	
